@@ -2,7 +2,7 @@ import cv2
 import time
 
 # Load Haar Cascade for eye detection
-eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 # Start camera
 cap = cv2.VideoCapture(0)
